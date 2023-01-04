@@ -1,5 +1,6 @@
 {
   "settings": {
+    "terminal.integrated.cwd": "${workspaceFolder}",
     "C_Cpp.autocomplete": "Disabled",
     "C_Cpp.codeFolding": "Disabled",
     "C_Cpp.debugShortcut": false,
