@@ -1,5 +1,28 @@
 {
-  
+  "extensions": [
+    "/opt/cs50/extensions/cs50-0.0.1.vsix",
+    "/opt/cs50/extensions/phpliteadmin-0.0.1.vsix",
+    "cs50.ddb50",
+    "cs50.extension-uninstaller",
+    "cs50.lab50",
+    "cs50.markdown50",
+    "cs50.vscode-presentation-mode",
+    "ms-python.python",
+    "ms-vscode.cpptools",
+    "ms-vscode.hexeditor",
+    "ms-vsliveshare.vsliveshare-pack",
+    "redhat.java",
+    "tomoki1207.pdf",
+    "vscjava.vscode-java-debug",
+    "vsls-contrib.gitdoc"
+  ],
+  "forwardPorts": [
+    5000,
+    5900,
+    6081,
+    8080,
+    8082
+  ],
   "image": "ghcr.io/cs50/codespace:303d6c02a12c35efe5040f102f6054b4e432cb11",
   "postCreateCommand": "/opt/cs50/bin/postCreateCommand",
   "settings": {
